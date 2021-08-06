@@ -1,7 +1,7 @@
 import * as React from 'react';
 //import { isForwardRef } from 'react-is';
 import { createElement } from 'react';
-import createContext from 'create-react-context'; // Polyfill for React 15
+import createContext from 'create-react-15-context'; // Polyfill for React 15
 import poseFactory, {
   DomPopmotionPoser,
   DomPopmotionConfig
